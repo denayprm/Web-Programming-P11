@@ -1,8 +1,8 @@
 <?php
     // Membuat variabel kosong
     // Cek form sudah di klik submit/belum
-        // Cek input kosong
-        // Cek semua input sudah diisi apa belum
+    // Cek input kosong
+    // Cek semua input sudah diisi apa belum
 ?>
 
 <html>

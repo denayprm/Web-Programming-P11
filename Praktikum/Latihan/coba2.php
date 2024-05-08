@@ -1,6 +1,10 @@
 <?php
-    $error_nama = $error_email = $error_gender = "";
-    $nama = $email = $gender = "";
+    $nama = "";
+    $error_nama = "";
+    $email = "";
+    $error_email = "";
+    $gender = "";
+    $error_gender = "";
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if (empty($_POST["nama"])) {
@@ -58,12 +62,14 @@
                 <tr>
                     <td>Name</td>
                     <td>:</td>
-                    <td><input type="text" name="nama"><span class="error"> *<?php echo $error_nama;?></span></td>
+                    <td><input type="text" name="nama">
+                    <span class="error"> *<?php echo $error_nama;?></span></td>
                 </tr>
                 <tr>
                     <td>E-mail</td>
                     <td>:</td>
-                    <td><input type="text" name="email"><span class="error"> *<?php echo $error_email;?></span></td>
+                    <td><input type="text" name="email">
+                    <span class="error"> *<?php echo $error_email;?></span></td>
                 </tr>
                 <tr>
                     <td>Website</td>
