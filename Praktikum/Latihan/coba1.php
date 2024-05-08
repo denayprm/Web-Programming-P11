@@ -1,3 +1,9 @@
+<?php
+    // Membuat variabel kosong
+    // Cek form sudah di klik submit/belum
+        // Cek input kosong
+        // Cek semua input sudah diisi apa belum
+?>
 
 <html>
     <head>
@@ -14,7 +20,7 @@
     <body>
         <h1>PHP Form Validation Example</h1>
         <p>* required field</p>
-        <form action="" method="POST">
+        <form action="coba1.php" method="POST">
             <table>
                 <tr>
                     <td>Name</td>
