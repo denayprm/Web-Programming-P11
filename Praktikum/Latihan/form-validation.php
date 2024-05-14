@@ -51,14 +51,17 @@ function test_input($data) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP Form Validation Example</title>
+    <title>PHP FORM VALIDATION</title>
     <style>
-        .form-group input[type="text"] {
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group input[type="text"],[type="submit"] {
             margin-left: 7px;
             padding: 4px;
             border: 1px solid #ccc;
             border-radius: 5px;
-            box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1); /* Tambahkan efek bayangan dalam */
+            box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
         }
         .error {color: red;}
     </style>
